@@ -2,12 +2,6 @@ from selenium import webdriver
 from webdriver_manager.chrome import ChromeDriverManager
 from getpass import getpass
 
-#from time import time, sleep
-
-# while True:
-#     sleep(60 - time() % 60)
-# 	# thing to run
-
 def install_driver():
     driver = webdriver.Chrome(ChromeDriverManager().install())
     return driver
